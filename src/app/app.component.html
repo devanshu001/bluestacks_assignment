@@ -1,0 +1,18 @@
+<div class="app-container">
+  <header>BLUESTACKS</header>
+  <content>
+    <h2>Manage Campaigns</h2>
+    <mat-tab-group>
+      <mat-tab label="Upcoming Campaigns">
+        <app-table-view [tableData]='upcomingCampaignData'></app-table-view>
+      </mat-tab>
+      <mat-tab label="Live Campaigns">
+        <app-table-view [tableData]='activeCampaignData'></app-table-view>
+      </mat-tab>
+      <mat-tab label="Past Campaigns">
+        <app-table-view [tableData]='pastCampaignData'></app-table-view>
+      </mat-tab>
+    </mat-tab-group>
+  </content>
+</div>
+

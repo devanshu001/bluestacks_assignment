@@ -1,0 +1,96 @@
+.table-style{
+  margin:20px 0;
+
+
+  .mat-header-row{
+    background-color:#e6e3dc;
+    height: 15px;
+  }
+
+  .date-cell{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    p{margin:0;}
+    p:first-child{
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    p:last-child{
+      font-size: 12px;
+      font-weight: 300;
+
+    }
+  }
+
+  .campaign-details{
+    display: flex;
+    img{
+      height:40px;
+      width:40px;
+    }
+    .details-container{
+      margin-left:10px;
+      display: flex;
+      flex-direction: column;
+      p{margin:0;}
+    p:first-child{
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 5px;
+    }
+    p:last-child{
+      font-size: 12px;
+      font-weight: 300;
+    }
+    }
+  }
+    .pricing-cell{
+      display: flex;
+      img{
+        height:20px;
+        width:20px;
+        margin-right:10px;
+      }
+    }
+
+
+  .csv-button,.report-button ,.reschedule {
+      padding:0;
+
+    button{
+    outline: none;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    img{
+      height:20px;
+      width: 20px;
+      margin-right: 5px;
+    }
+  }
+  }
+
+
+  .reschedule{
+    mat-form-field{
+      input{
+
+      }
+      width: 100%;
+    }
+  }
+  mat-cell{
+    padding:15px;
+  }
+  mat-header-cell{
+    padding:10px;
+    font-size: 16px;
+  }
+}
